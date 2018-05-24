@@ -19,5 +19,5 @@ interface Router
      * @throws RouteNotFoundException
      * @return string
      */
-    public function generate($name, array $params = []): string;
+    public function generate($name, array $params): string;
 }
